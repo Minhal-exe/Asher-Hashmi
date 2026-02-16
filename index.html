@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sir Asher Hashmi | Mathematics Academy</title>
+    <meta name="description" content="Premium Mathematics Coaching for Class 9-12 by Sir Asher Hashmi. Expert guidance at Al Murtuza School & Student Zone.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="preloader" id="preloader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <svg viewBox="0 0 100 100" class="loader-svg">
+                    <circle cx="50" cy="50" r="45" class="loader-circle" />
+                </svg>
+                <span class="loader-text">AH</span>
+            </div>
+            <p class="loader-tag">Mathematics Excellence</p>
+        </div>
+    </div>
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <div class="logo-box">
+                    <span>AH</span>
+                </div>
+                <div class="logo-info">
+                    <span class="logo-title">Sir Asher Hashmi</span>
+                    <span class="logo-sub">Mathematics Academy</span>
+                </div>
+            </a>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#philosophy" class="nav-link">Philosophy</a>
+                <a href="#programs" class="nav-link">Programs</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#contact" class="nav-link">Connect</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-header">
+                    <span>Join Academy</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M18 13h-5v5h-2v-5H6v-2h5V6h2v5h5v2z"/>
+                    </svg>
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-inner">
+            <nav class="mobile-nav">
+                <a href="#hero" class="mobile-link"><span>01.</span> Home</a>
+                <a href="#philosophy" class="mobile-link"><span>02.</span> Philosophy</a>
+                <a href="#programs" class="mobile-link"><span>03.</span> Programs</a>
+                <a href="#journey" class="mobile-link"><span>04.</span> Journey</a>
+                <a href="#contact" class="mobile-link"><span>05.</span> Connect</a>
+            </nav>
+        </div>
+    </div>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-gradients">
+                <div class="gradient-sphere sphere-1"></div>
+                <div class="gradient-sphere sphere-2"></div>
+                <div class="gradient-sphere sphere-3"></div>
+            </div>
+            <div class="grid-pattern"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-eyebrow">
+                    <span class="pulse-dot"></span>
+                    <span>Admissions Open 2025-26</span>
+                </div>
+                <h1 class="hero-headline">
+                    Elevate Your<br>
+                    <span class="text-gradient">Mathematical</span><br>
+                    Prowess
+                </h1>
+                <p class="hero-description">
+                    Join The Premier Mathematics Coaching Program Designed To Transform Students Into Problem Solvers. Expert Mentorship By Sir Asher Hashmi.
+                </p>
+                <div class="hero-actions">
+                    <a href="#programs" class="btn btn-primary btn-lg magnetic">
+                        <span>View Programs</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#journey" class="btn btn-ghost btn-lg magnetic">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <span>Watch Story</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-value counter" data-target="10">0</span><span class="stat-unit">K+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-value counter" data-target="95">0</span><span class="stat-unit">%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-value counter" data-target="500">0</span><span class="stat-unit">+</span>
+                        <span class="stat-label">Videos</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="profile-card tilt-card">
+                    <div class="card-shine"></div>
+                    <div class="profile-frame">
+                        <div class="profile-image">
+                            <img src="Salu bhai img.jpg" alt="Photo Of Sir Asher Hahmi">
+                                <defs>
+                                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="100" cy="80" r="45" fill="url(#grad1)"/>
+                                <ellipse cx="100" cy="180" rx="60" ry="45" fill="url(#grad1)"/>
+                            </svg>
+                        </div>
+                        <div class="status-badge">
+                            <span class="status-dot"></span>
+                            <span>Available For Mentoring</span>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <h3>Sir Asher Hashmi</h3>
+                        <p>Mathematics Educator & Mentor</p>
+                        <div class="profile-tags">
+                            <span>Al Murtuza School</span>
+                            <span>Student Zone</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="float-card fc-1 tilt-card">
+                    <div class="fc-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                    </div>
+                    <div class="fc-info">
+                        <span class="fc-title">Qualification</span>
+                        <span class="fc-value">M.Sc Mathematics</span>
+                    </div>
+                </div>
+                <div class="float-card fc-2 tilt-card">
+                    <div class="fc-icon success">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="fc-info">
+                        <span class="fc-title">Rating</span>
+                        <span class="fc-value">4.9 / 5.0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-cue">
+            <span>Scroll Down</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span class="marquee-item">Board Excellence</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">JEE Preparation</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">Concept Clarity</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">Problem Solving</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">Personalized Attention</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">Board Excellence</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">JEE Preparation</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">Concept Clarity</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">Problem Solving</span>
+                <span class="marquee-sep">◆</span>
+                <span class="marquee-item">Personalized Attention</span>
+                <span class="marquee-sep">◆</span>
+            </div>
+        </div>
+    </div>
+
+    <section id="philosophy" class="philosophy-section">
+        <div class="container">
+            <div class="philosophy-grid">
+                <div class="philosophy-content reveal-up">
+                    <span class="section-eyebrow">The Philosophy</span>
+                    <h2 class="section-heading">Education is not just teaching, it's awakening.</h2>
+                    <p class="section-text">
+                        Sir Asher Hashmi Believes In Building A Deep Conceptual Understanding Rather Than Rote Memorization. With over 5 years of experience at Al Murtuza School and Student Zone Coaching, he has developed a unique methodology that empowers students to tackle complex problems with confidence.
+                    </p>
+                    <div class="philosophy-features">
+                        <div class="p-feature">
+                            <div class="p-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                </svg>
+                            </div>
+                            <div class="p-text">
+                                <h4>Strong Foundations</h4>
+                                <p>Building Basics That Last A Lifetime.</p>
+                            </div>
+                        </div>
+                        <div class="p-feature">
+                            <div class="p-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="p-text">
+                                <h4>Time Management</h4>
+                                <p>Strategies For Exam Efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="p-feature">
+                            <div class="p-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                                </svg>
+                            </div>
+                            <div class="p-text">
+                                <h4>Study Material</h4>
+                                <p>Curated Resources For Success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="philosophy-visual reveal-up">
+                    <div class="philosophy-image-wrapper">
+                        <div class="p-image-placeholder">
+                            <img src="Salu bhai img.jpg" alt="Photo Of Sir Asher Hahmi" width="100%">
+                                <rect width="400" height="500" rx="20" fill="currentColor" opacity="0.1"/>
+                                <circle cx="200" cy="180" r="80" fill="currentColor" opacity="0.3"/>
+                                <ellipse cx="200" cy="380" rx="100" ry="70" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <div class="exp-badge">
+                            <span class="exp-num">5+</span>
+                            <span class="exp-txt">Years<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-eyebrow">Programs</span>
+                <h2 class="section-heading">Structured Learning Paths</h2>
+                <p class="section-subtext">Comprehensive Courses Designed For Excellence In Board Examinations And Competitive Tests.</p>
+            </div>
+
+            <div class="programs-grid">
+                <!-- Class 9 -->
+                <div class="program-card reveal-up tilt-card" data-tilt>
+                    <div class="program-glow"></div>
+                    <div class="program-top">
+                        <div class="program-level level-9">09</div>
+                        <span class="program-tag">Foundation</span>
+                    </div>
+                    <h3 class="program-title">Mathematics Foundations</h3>
+                    <p class="program-desc">Build A Robust Base In Algebra, Geometry, And Statistics. Perfect For Young Learners Starting Their Journey.</p>
+                    <ul class="program-features">
+                        <li><span class="check-icon">✓</span> Number Systems</li>
+                        <li><span class="check-icon">✓</span> Polynomials</li>
+                        <li><span class="check-icon">✓</span> Introduction to Euclid</li>
+                        <li><span class="check-icon">✓</span> Statistics Basics</li>
+                    </ul>
+                    <div class="program-meta">
+                        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 80+ Hours</span>
+                        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Batch Size: 25</span>
+                    </div>
+                    <a href="#contact" class="program-link magnetic">
+                        <span>Enroll Now</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <div class="program-card featured reveal-up tilt-card" data-tilt>
+                    <div class="program-ribbon">Most Popular</div>
+                    <div class="program-glow"></div>
+                    <div class="program-top">
+                        <div class="program-level level-10">10</div>
+                        <span class="program-tag hot">Board Prep</span>
+                    </div>
+                    <h3 class="program-title">Board Mastery Program</h3>
+                    <p class="program-desc">Complete Preparation For Class 10 Boards With Intensive Practice And Result-Oriented Strategies.</p>
+                    <ul class="program-features">
+                        <li><span class="check-icon">✓</span> Trigonometry</li>
+                        <li><span class="check-icon">✓</span> Quadratic Equations</li>
+                        <li><span class="check-icon">✓</span> Coordinate Geometry</li>
+                        <li><span class="check-icon">✓</span> Previous Year Papers</li>
+                    </ul>
+                    <div class="program-meta">
+                        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 120+ Hours</span>
+                        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Batch Size: 30</span>
+                    </div>
+                    <a href="#contact" class="program-link magnetic">
+                        <span>Enroll Now</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <div class="program-card reveal-up tilt-card" data-tilt>
+                    <div class="program-glow"></div>
+                    <div class="program-top">
+                        <div class="program-level level-11">11</div>
+                        <span class="program-tag">Advanced</span>
+                    </div>
+                    <h3 class="program-title">Advanced Calculus & Algebra</h3>
+                    <p class="program-desc">Dive Deep Into Higher Mathematics With Concepts Essential For Competitive Exams.</p>
+                    <ul class="program-features">
+                        <li><span class="check-icon">✓</span> Sets & Functions</li>
+                        <li><span class="check-icon">✓</span> Limits & Derivatives</li>
+                        <li><span class="check-icon">✓</span> Complex Numbers</li>
+                        <li><span class="check-icon">✓</span> 3D Geometry Intro</li>
+                    </ul>
+                    <div class="program-meta">
+                        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 150+ Hours</span>
+                        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Batch Size: 20</span>
+                    </div>
+                    <a href="#contact" class="program-link magnetic">
+                        <span>Enroll Now</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <div class="program-card reveal-up tilt-card" data-tilt>
+                    <div class="program-glow"></div>
+                    <div class="program-top">
+                        <div class="program-level level-12">12</div>
+                        <span class="program-tag">Expert</span>
+                    </div>
+                    <h3 class="program-title">Board & Competitive Combo</h3>
+                    <p class="program-desc">Dual-Focused Preparation For Board Exams And JEE/MHT-CET Entrance Tests.</p>
+                    <ul class="program-features">
+                        <li><span class="check-icon">✓</span> Integrals</li>
+                        <li><span class="check-icon">✓</span> Vectors & 3D</li>
+                        <li><span class="check-icon">✓</span> Probability</li>
+                        <li><span class="check-icon">✓</span> JEE Modules</li>
+                    </ul>
+                    <div class="program-meta">
+                        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 180+ Hours</span>
+                        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Batch Size: 20</span>
+                    </div>
+                    <a href="#contact" class="program-link magnetic">
+                        <span>Enroll Now</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="journey-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-eyebrow">Student Journey</span>
+                <h2 class="section-heading">Success Stories</h2>
+            </div>
+
+            <div class="testimonials-container reveal-up">
+                <div class="testimonials-slider">
+                    <div class="testimonial-track" id="testimonial-track">
+                        <div class="testimonial-slide">
+                            <div class="t-card">
+                                <div class="t-rating">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                </div>
+                                <p class="t-text">"Sir Asher's Teaching Method Transformed My Fear of Math into a Love for the Subject. Scored 96 In Boards!"</p>
+                                <div class="t-author">
+                                    <div class="t-avatar">AA</div>
+                                    <div class="t-info">
+                                        <span class="t-name">S.Areeb Abbs</span>
+                                        <span class="t-result">Class 10 - 96%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="t-card">
+                                <div class="t-rating">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                </div>
+                                <p class="t-text">"The Calculus Modules At Student Zone Are Exceptional. I Cleared JEE Mains With A Great Score Thanks To The Strong Foundation."</p>
+                                <div class="t-author">
+                                    <div class="t-avatar">GA</div>
+                                    <div class="t-info">
+                                        <span class="t-name">Gohar Ali Jaffery</span>
+                                        <span class="t-result">Class 12 - JEE Qualified</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="t-card">
+                                <div class="t-rating">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 7.02L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                </div>
+                                <p class="t-text">"I Never Thought I'd Enjoy Math Until I Joined Sir's Class. He Makes Complex Topics So Simple And Logical."</p>
+                                <div class="t-author">
+                                    <div class="t-avatar">MB</div>
+                                    <div class="t-info">
+                                        <span class="t-name">Muhammad Basit</span>
+                                        <span class="t-result">Class 11 - Science</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev" id="prev-slide">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    </button>
+                    <div class="slider-dots" id="slider-dots"></div>
+                    <button class="slider-btn next" id="next-slide">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal-up">
+                    <span class="section-eyebrow">Get In Touch</span>
+                    <h2 class="section-heading">Start Your Journey Today</h2>
+                    <p class="contact-text">Ready To Transform Your Mathematical Skills? Reach Out For Enrollment Details, Course Inquiries, Or To Schedule A Visit.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="ci-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="ci-text">
+                                <h4>Student Zone Coaching | Al Murtuza School</h4>
+                                <p>Primary Teaching Location</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="ci-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div class="ci-text">
+                                <h4>Email</h4>
+                                <p>contact@sirasherhashmi.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="ci-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div class="ci-text">
+                                <h4>Phone</h4>
+                                <p>+92 334 6308627</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="socials">
+                        <a href="https://www.youtube.com/channel/UCeVmCCX71LoY9VD-pi3rXlA" target="_blank" class="social-btn magnetic" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                        <a href="#" class="social-btn magnetic" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="social-btn magnetic" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper reveal-up">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+92 XXX XXXXXXX">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="class">Select Class</label>
+                            <select id="class" name="class" required>
+                                <option value="">Choose Class</option>
+                                <option value="9">Class 9</option>
+                                <option value="10">Class 10</option>
+                                <option value="11">Class 11</option>
+                                <option value="12">Class 12</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full magnetic">
+                            <span>Send Message</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-box"><span>AH</span></div>
+                        <div class="logo-info">
+                            <span class="logo-title">Sir Asher Hashmi</span>
+                            <span class="logo-sub">Mathematics Academy</span>
+                        </div>
+                    </a>
+                    <p class="footer-desc">Empowering Students With Knowledge and Confidence to Excel in Mathematics.</p>
+                     <p class="footer-desc"><a href="https://www.youtube.com/channel/UCeVmCCX71LoY9VD-pi3rXlA" target="_blank">Subscribe to our YouTube Channel</a></p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <a href="#hero">Home</a>
+                        <a href="#philosophy">Philosophy</a>
+                        <a href="#programs">Programs</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Programs</h4>
+                        <a href="#programs">Class 9</a>
+                        <a href="#programs">Class 10</a>
+                        <a href="#programs">Class 11</a>
+                        <a href="#programs">Class 12</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Locations</h4>
+                        <a href="https://www.studentszone.com.pk/" target="_blank">Student Zone</a>
+                        <a href="https://www.ams.edu.pk/" target="_blank">Al Murtuza School</a>
+                        <a href="https://www.youtube.com/channel/UCeVmCCX71LoY9VD-pi3rXlA" target="_blank">YouTube Channel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026  All Rights Reserved.</p>
+                <p>Designed And Developed By Mohammad Minhal</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-top" id="back-top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
